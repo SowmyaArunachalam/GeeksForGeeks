@@ -1,31 +1,45 @@
-def sumElement(arr,n):
-    #code here
-    sum=0
-    for i in arr:
-        sum+=i
-    return sum
+class Solution:
+
+	def print2largest(self,arr,n):
+       
+       if __name__ == '__main__':
+         max=-100
+         min=-100
+         for i in arr :
+           if i>max:
+            min=max
+            max=i
+           elif min<=i<max:
+            min=i
+       return(min)
 
 
-"""Given an integer array arr of size n, you need to sum the elements of arr.
+"""Given an array Arr of size N, print second largest distinct element from an array.
 
 Example 1:
 
-Input:
-n = 3
-arr[] = {3 2 1}
-Output: 6
+Input: 
+N = 6
+Arr[] = {12, 35, 1, 10, 34, 1}
+Output: 34
+Explanation: The largest element of the 
+array is 35 and the second largest element
+is 34.
 Example 2:
 
-Input:
-n = 4
-arr[] = {1 2 3 4}
-Output: 10
+Input: 
+N = 3
+Arr[] = {10, 5, 10}
+Output: 5
+Explanation: The largest element of 
+the array is 10 and the second 
+largest element is 5.
 Your Task:
-You need to complete the function sumElement() that takes arr and n and returns the sum. The printing is done by the driver code.
+You don't need to read input or print anything. Your task is to complete the function print2largest() which takes the array of integers arr and n as parameters and returns an integer denoting the answer. If 2nd largest element doesn't exist then return -1.
 
-Expected Time Complexity: O(n).
-Expected Auxiliary Space: O(1).
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(1)
 
 Constraints:
-1 <= n <= 103
-1 <= arri <= 104"""
+2 ≤ N ≤ 105
+1 ≤ Arri ≤ 105"""
