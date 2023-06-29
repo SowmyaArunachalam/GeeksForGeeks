@@ -25,9 +25,10 @@ Constraints:
 1 <= N <= 105
 1 <= Arr[i] <= 104
 '''
-class Solution:
-
-	def _sum(self,arr, n):
-   		# code here
-         return(sum(arr))
+def sumElement(arr,n):
+    #code here
+    sum=0
+    for i in arr:
+        sum+=i
+    return sum
  
