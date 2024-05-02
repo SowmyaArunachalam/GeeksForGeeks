@@ -1,4 +1,4 @@
-'''
+/*
 For an input year N, find whether the year is a leap or not. 
  
 
@@ -33,7 +33,7 @@ Expected Space Complexity: O(1)
 
 Constraints:
 1<=N<=9999
-'''
+*/
 int isLeap(int N){
  
     if((N%400)==0 && (N%100)==0){
