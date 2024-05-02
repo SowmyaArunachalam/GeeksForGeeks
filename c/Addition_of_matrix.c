@@ -1,4 +1,4 @@
-'''
+/*
 Given two square matrices matrixA and matrixB of size n x n.  Find the addition of these two matrices.
 
 Note :- You don't have to return anything in this question (Refer YourTask section).
@@ -25,7 +25,7 @@ Expected Space Complexity: O(1)
 
 Constraints:
 1 <= n <= 100
-'''
+*/
 
 void Addition(int n, int matrixA[][n], int matrixB[][n])
 {
